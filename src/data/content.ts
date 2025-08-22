@@ -20,14 +20,14 @@ export const education = [
     cgpa: '8.90',
     start: 'Sept 2022',
     end: 'Sept 2026',
-    details: 'Course highlights: Data Structures, ML, AI, Software Engineering, Cloud Computing. Active member of CSET and School of AI student projects.'
+    details: 'Course highlights: Data Structures, Data Science, ML, AI, Software Engineering, Cloud Computing, Problem Solving.'
   }
 ]
 
 export const experience = [
   {
     company: 'Frugal Testing',
-    role: 'SDE Intern',
+    role: 'SDE + STE Intern',
     start: 'Apr 2025',
     end: 'Jul 2025',
     bullets: [
