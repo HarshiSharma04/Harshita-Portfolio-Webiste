@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+
+.gradient-bg {
+  background: linear-gradient(270deg,#051025,#071330,#0b1630,#111436);
+  background-size: 400% 400%;
+  animation: gradient-x 18s ease infinite;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg,#22D3EE,#A78BFA,#F472B6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card { @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 transition; }
+.glow { box-shadow: 0 0 40px rgba(99,102,241,.28); }
+
+.hero-visual svg { width:100%; height:220px; display:block; }
+@media (min-width:768px) { .hero-visual svg { height:320px } }
