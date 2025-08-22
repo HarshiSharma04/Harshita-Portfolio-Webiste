@@ -5,7 +5,7 @@ export default function Research() {
   return (
     <div className="max-w-3xl">
       <h1 className="text-3xl font-bold">Research</h1>
-      <p className="text-white/80 mt-2">Selected publications and academic contributions.</p>
+      <p className="text-white/80 mt-2"></p>
       <div className="mt-6 space-y-4">
         {research.map((r, i) => (
           <article key={i} className="card p-5">

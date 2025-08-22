@@ -65,7 +65,7 @@ export const research = [
     title: 'Modeling of Dengue Fever Outbreaks Using Machine Learning Techniques',
     venue: 'Lecture Notes in Networks and Systems (Springer Nature), SoCPaR 2023',
     link: 'https://lnkd.in/gQ5QNQqr',
-    summary: 'Compared RF, KNN, LSTM, and LightGBM for dengue outbreak forecasting using climate data (temperature, rainfall, humidity). LightGBM achieved 95.89% accuracy—promising for early-warning health systems.',
+    summary: 'Compared RF, KNN, LSTM, and LightGBM for dengue outbreak forecasting using climate data (temperature, rainfall, humidity). LightGBM achieved 95.89% accuracy, promising for early-warning health systems.',
     authors: ['Harshita Sharma','Divyanshi Singh','Ananya Srivastava','Dr. Yajnaseni Dash','Dr. Ajith Abraham'],
     date: '2023'
   }
@@ -76,7 +76,7 @@ export const projects = [
     slug: 'brandaudit',
     name: 'BrandAudit – Real-time Sentiment Dashboard',
     date: 'Jul 2025',
-    tech: ['Flask','React.js','VADER NLP','Chart.js','CI/CD'],
+    tech: ['MERN Stack','Flask','React.js','VADER NLP','Chart.js','CI/CD', 'NLP'],
     repo: 'https://github.com/HarshiSharma04/BrandAudit',
     summary: 'End-to-end full-stack sentiment analysis platform that ingests social media at scale and visualizes real-time brand health.',
     bullets: [
@@ -90,7 +90,7 @@ export const projects = [
     slug: 'eduai',
     name: 'EduAI – Smart Learning Assistant',
     date: 'Jul 2024',
-    tech: ['Flutter','Python','Flask','Random Forest','Recommender','APIs'],
+    tech: ['Flutter','Python','Flask','Random Forest','Recommender','APIs', 'AI/ML'],
     repo: 'https://github.com/HarshiSharma04/EduAI',
     summary: 'Personalized learning app with learning-style prediction, AI Tutor, recommendation system, and focus mode.',
     bullets: [
@@ -104,7 +104,7 @@ export const projects = [
     slug: 'calorie-tracker',
     name: 'Calorie Tracker – Food Recognition & Diet Analytics',
     date: 'Jun 2024',
-    tech: ['Flutter','Firebase','TFLite','camera','tflite_flutter'],
+    tech: ['Flutter','Firebase','TFLite','camera','tflite_flutter', 'AI/ML'],
     repo: 'https://github.com/HarshiSharma04/FoodCalorieRecognition',
     summary: 'Camera-based food recognition, calorie estimation, diet tracking, recipes, and progress charts.',
     bullets: [
@@ -194,13 +194,13 @@ export const skills = {
 }
 
 export const certifications = [
-  { name: 'Fundamentals of Deep Learning', org: 'NVIDIA', issued: 'Jan 2025', credentialId: '1tO0Ys3ITkGJkXM3sgBKrQ' },
-  { name: 'Introduction to Web Development with HTML, CSS, JavaScript', org: 'IBM', issued: 'Jun 2024', credentialId: 'L6LHMN8Y4QZY' },
-  { name: 'Fundamentals of Network Communication', org: 'University of Colorado System', issued: 'Feb 2024', credentialId: 'H34RLDDJVDA9' },
-  { name: 'IBM Machine Learning Specialization', org: 'IBM', issued: 'Feb 2024', credentialId: 'FZY4FPRGT62W' },
-  { name: 'Operating Systems and You: Becoming a Power User', org: 'Google', issued: 'Feb 2024', credentialId: 'RSJBP7BHFE2X' },
-  { name: 'Data Structures', org: 'University of California, San Diego', issued: 'Oct 2023', credentialId: 'JQ9TKQ9L4SD8' },
-  { name: 'Google Data Analytics Specialization', org: 'Google', issued: 'Oct 2023', credentialId: '6ML7ZFR4DY88' },
+  { name: 'Fundamentals of Deep Learning', org: 'NVIDIA', issued: 'Jan 2025', credentialId: '' },
+  { name: 'Introduction to Web Development with HTML, CSS, JavaScript', org: 'IBM', issued: 'Jun 2024', credentialId: '' },
+  { name: 'Fundamentals of Network Communication', org: 'University of Colorado System', issued: 'Feb 2024', credentialId: '' },
+  { name: 'IBM Machine Learning Specialization', org: 'IBM', issued: 'Feb 2024', credentialId: '' },
+  { name: 'Operating Systems and You: Becoming a Power User', org: 'Google', issued: 'Feb 2024', credentialId: '' },
+  { name: 'Data Structures', org: 'University of California, San Diego', issued: 'Oct 2023', credentialId: '' },
+  { name: 'Google Data Analytics Specialization', org: 'Google', issued: 'Oct 2023', credentialId: '' },
   { name: 'Introduction to User Experience Design', org: 'University of Colorado System', issued: '2024', credentialId: '' },
   { name: 'Google Cloud Arcade Badges', org: 'Google Cloud', issued: '2024', credentialId: '' }
 ]
