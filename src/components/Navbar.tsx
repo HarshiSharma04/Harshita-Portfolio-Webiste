@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import CommandPalette from './CommandPalette'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -29,7 +28,6 @@ export default function Navbar() {
             </NavLink>
           ))}
         </nav>
-        <CommandPalette />
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-white focus:outline-none z-60"
