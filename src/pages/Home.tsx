@@ -16,7 +16,7 @@ export default function Home() {
               Software Engineer building production-ready apps, pipelines, and ML-driven products.
             </p>
 
-            {/* Hero Animation moved here */}
+            {/* Hero Animation */}
             <div className="mt-6">
               <HeroVisual />
             </div>
