@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="min-h-screen gradient-bg text-white">
       <Navbar />
-      <main className="px-4 md:px-8 max-w-7xl mx-auto py-8 md:py-12">
+      <main className="pt-16 px-4 md:px-8 max-w-7xl mx-auto py-8 md:py-12">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
